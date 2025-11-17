@@ -17,7 +17,7 @@ const MembersList = () => {
 
   return (
     <div className="members-bg d-flex flex-column align-items-center p-5">
-      <h1 className="text-center mb-4">Members List</h1>
+      <h1 className="text-center mb-4 text-light fw-bold">Members List</h1>
 
       <TableContainer component={Paper} className="shadow" style={{ width: "50%" }}>
         <Table>

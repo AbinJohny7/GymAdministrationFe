@@ -143,7 +143,7 @@ const handleSaveClick = async () => {
   return (
     <div className="history-bg">
       <Container>
-        <Typography className="text-center p-5 fw-bold " variant="h4">
+        <Typography className="text-center p-5 fw-bold text-light" variant="h4">
           History
         </Typography>
         <TableContainer className="mt-5 bg-secondary" component={Paper}>

@@ -1,13 +1,20 @@
 
 .page-bg {
-  background: rgb(176, 176, 176)
+  background: url(./public/pngtree-rows-of-dumbbells-in-the-gym-image_15662386.jpg);
+  background-size: cover;
+  background-position: center;
+  
 }
 .history-bg {
-  background: rgb(176, 176, 176);
+  background: url(./public/pngtree-rows-of-dumbbells-in-the-gym-image_15662386.jpg);
+  background-size: cover;
+  background-position: center;
   min-height: 100vh;
 }
 .members-bg{
-  background: rgb(176, 176, 176);
+ background: url(./public/pngtree-rows-of-dumbbells-in-the-gym-image_15662386.jpg);
+  background-size: cover;
+  background-position: center;
   min-height: 100vh;
 }
 
@@ -15,7 +22,12 @@
   backdrop-filter: blur(6px);
   background-color: rgba(255,255,255,0.75);
 }
-
+.navbg{
+  background-color: rgb(48, 176, 176)
+}
+.footbg{
+    background-color: rgb(48, 176, 176)
+}
 .brand-accent {
   color: #4f46e5; 
 }
