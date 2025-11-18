@@ -1,5 +1,6 @@
 import axios from "axios";
 import axiosConfig from "./axiosConfig";
+import { Baseurl } from "./baseUrl";
 
 export const createClient= async(reqBody)=>{
     return await axiosConfig('post',`${Baseurl}/gym`,reqBody)
