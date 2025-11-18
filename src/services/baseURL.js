@@ -1,1 +1,0 @@
-export const Baseurl='https://gymadministrationbe.onrender.com'
